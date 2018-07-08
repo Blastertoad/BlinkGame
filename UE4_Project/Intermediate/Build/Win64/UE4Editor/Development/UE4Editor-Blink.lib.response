@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Blink.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\GitHub\Blink\Intermediate\Build\Win64\UE4Editor\Development\Blink\Blink.cpp.obj"
+"F:\GitHub\Blink\Intermediate\Build\Win64\UE4Editor\Development\Blink\BlinkGameModeBase.cpp.obj"
+"F:\GitHub\Blink\Intermediate\Build\Win64\UE4Editor\Development\Blink\Blink.init.gen.cpp.obj"
+"F:\GitHub\Blink\Intermediate\Build\Win64\UE4Editor\Development\Blink\BlinkGameModeBase.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Blink\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"F:\GitHub\Blink\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Blink.lib"

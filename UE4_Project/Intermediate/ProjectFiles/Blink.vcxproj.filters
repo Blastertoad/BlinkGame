@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Blink.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{353E03A8-3E9D-4E75-A688-55F3808CD280}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Blink.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BlinkEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{68805F2C-6BA5-4B93-87C7-A34DE366B7C6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Blink">
+			<UniqueIdentifier>{C7E03EB6-5E0F-4B6E-A6D5-AE302F9D46C4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Blink\Blink.Build.cs">
+			<Filter>Source\Blink</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Blink\Blink.cpp">
+			<Filter>Source\Blink</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Blink\Blink.h">
+			<Filter>Source\Blink</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Blink\BlinkGameModeBase.cpp">
+			<Filter>Source\Blink</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Blink\BlinkGameModeBase.h">
+			<Filter>Source\Blink</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
